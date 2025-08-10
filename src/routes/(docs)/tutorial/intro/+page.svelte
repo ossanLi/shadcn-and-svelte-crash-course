@@ -1,12 +1,15 @@
 <script>
-	import * as Content from '$lib/components/Content/index.js';
+	import * as Doc from '$lib/components/Doc';
 </script>
 
-<Content.Root>
-	<Content.Header label="meow" description="kitty" />
-
-	<Content.Section></Content.Section>
-</Content.Root>
+<Doc.Content>
+	<Doc.Banner 
+		label="Welcome to Ossan's Full-Stack SvelteKit Crash Course"
+		description="We'll cover project structure and architecture, best practices alongside my own personal thoughts,<br> a focus on privacy and security, performance, and self-reliance — all while staying up to date with the latest 2025 technologies."
+		h1={true}
+	/>
+	<Doc.Content></Doc.Content>
+</Doc.Content>
 
 <!-- 
 
